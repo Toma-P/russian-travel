@@ -14,4 +14,4 @@ HTML, CSS.
 
 Создано в рамках обучения в [Яндекс.Практикум](https://practicum.yandex.ru/).
 
-ССылка на проект https://toma-p.github.io/russian-travel/index.html
+Сcылка на проект https://toma-p.github.io/russian-travel/index.html
