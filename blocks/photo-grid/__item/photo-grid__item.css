@@ -1,5 +1,6 @@
 .photo-grid__item {
   width: 100%;
+  max-width: 284px;
   object-fit: cover;
   aspect-ratio: 4/3;
 }
