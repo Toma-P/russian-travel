@@ -3,12 +3,32 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(42, 44, 47, .3);
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   color: #FFFFFF;
   text-decoration: none;
   aspect-ratio: 16/10;
 }
-.cover__link:hover {
+
+.cover__link::before {
+  content: "";
+  background-color: rgba(42, 44, 47, .3);
+  width: 100%;
+  aspect-ratio: 16/10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cover__link:hover::before {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+    background-image: url(../../images/cover-trains-S.jpg);
+  }
 }
