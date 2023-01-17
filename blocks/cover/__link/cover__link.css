@@ -29,6 +29,6 @@
 
 @media screen and (max-width: 425px) {
   .cover__link {
-    background-image: url(../../images/cover-trains-S.jpg);
+    background-image: url(../../../images/cover-trains-S.jpg);
   }
 }
